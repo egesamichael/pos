@@ -23,9 +23,9 @@
 				<hr>
 			</div>
 			<div class="first_side ml-5 mt-5 mr-3">
-				<div style="width: 250px;height: 250px;">
+				<!-- <div style="width: 250px;height: 250px;">
 					<?php echo "<img class='img-fluid p-2 h-100 w-100' src='../images/".$row['image']."'>";?>
-				</div>
+				</div> -->
 			<form method="post" enctype="multipart/form-data">
 			</div>
 			<div class="second_side">

@@ -29,7 +29,7 @@
 		<div id="header">
 			<?php include('alert.php'); ?>
 			<div>
-				<img class="img-fluid m-2 w-100" src="images/logo1.jpg"/>
+				<img class="" style="width: 100px; height: 100px" src="images/newlogo.png"/>
 			</div>
 			<div class="text-white mt-0 ml-5">
 				<table class="table-responsive-sm">
@@ -53,7 +53,7 @@
 			</div>
 			<div class="header_price border p-0">
 				<h5>Grand Total</h5>
-				<p class="pb-0 mr-2" style="float: right; font-size: 40px;" id="totalValue">₱ 0.00</p>
+				<p class="pb-0 mr-2" style="float: right; font-size: 40px;" id="totalValue">SHS 0.00</p>
 			</div>
 		</div>
 		<div id="content" class="mr-2">
@@ -81,8 +81,8 @@
 				<div class="">
 				<small>
 					<ul class="text-white justify-content-center">
-						<li class="d-flex mb-0">Total (₱): <p id="totalValue1" class="mb-0 ml-5 pl-3">0.00</p></li>
-						<li class="mb-0 mt-0">Discount (₱): <input style="width: 100px" class="text-right form-control-sm" type="number" name="discount" value="0" min="0" placeholder="Enter Discount" id="discount" ></li>
+						<li class="d-flex mb-0">Total (SHS): <p id="totalValue1" class="mb-0 ml-5 pl-3">0.00</p></li>
+						<li class="mb-0 mt-0">Discount (SHS): <input style="width: 100px" class="text-right form-control-sm" type="number" name="discount" value="0" min="0" placeholder="Enter Discount" id="discount" ></li>
 					</ul>
 				</small>
 				</div>

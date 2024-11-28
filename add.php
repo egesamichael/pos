@@ -20,7 +20,7 @@
 			<div class="container-fluid">
 				<form method="post" id="modal-form" action="add_customer.php" enctype="multipart/form-data" class="needs-validation">
 		  			<div>
-		  			<div align="center">
+		  			<div>
 		  				<input type="hidden" name="size" class="form-control-sm" value="1000000">
 		  				<input type="hidden" name="user" class="form-control-sm" value="<?php echo $_GET['username'];?>">
 		  				<img class="mb-1" width="150" height="150" src="images/user.png"/>
@@ -33,7 +33,7 @@
 		  				<input class="form-control form-control-sm" type="text" name="number" placeholder="Enter Phone number" required></div>
 		  				<div class="input-group"><div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><i class="fas fa-map-marker-alt"></i></span></div>
 		  				<textarea type="text" class="form-control form-control-sm" name="address" placeholder="Enter Address" required></textarea></div>
-		  				<label>Choose Picture:<i class="fas fa-file-upload"></i></label><input type="file" class="form-control-sm" name="image" required/>
+		  				<!-- <label>Choose Picture:<i class="fas fa-file-upload"></i></label><input type="file" class="form-control-sm" name="image" required/> -->
 		  				</small>
 
 		  			</div>

@@ -9,7 +9,7 @@
 <body class="bg-dark">
 	<div class="text-center border border-dark">
 		<div class="main">
-			<img class="img-fluid" src="images/logo.png"/>
+			<img class="img-fluid" src="images/newlogo.png"/>
   			<?php include('error.php');?>
 		</div>
 		<div class="fixed-bottom mb-2">

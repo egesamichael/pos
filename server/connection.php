@@ -2,7 +2,7 @@
 $database	= 'PointOfSale';
 $username	= 'root';
 $host		= 'localhost';
-$password	= '';
+$password	= 'root';
 $msg 		= '';
 
 ini_set('display_errors',1);
